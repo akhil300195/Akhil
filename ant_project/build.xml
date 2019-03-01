@@ -1,0 +1,9 @@
+<project name="build" default="startBuild" basedir=".">
+	<target name="startBuild">
+	 <echo message="Starting the source code compile"/>
+	 <mkdir dir="classes"/>
+	 <mkdir dir="target"/>
+	 <javac srcdir="." destdir="classes"/>
+	 <jar basedir="classes" destfile="target/artifact.jar"/>
+	</target>
+</project>
