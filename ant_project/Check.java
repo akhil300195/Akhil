@@ -8,6 +8,6 @@ class Check
   public static void main(String[] args)
   {
 	Check check = new Check();
-	System.out.println(check.returnName("Praveen"));
+	System.out.println(check.returnName("AKHIL"));
   }
 }
